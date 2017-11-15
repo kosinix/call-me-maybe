@@ -1,0 +1,77 @@
+.call-me-maybe-form {
+    display: block;
+    padding: 50px 0;
+}
+
+.call-me-maybe-form .button:disabled{
+    cursor: not-allowed;
+}
+.call-me-maybe-form > div:after,
+.call-me-maybe-tag-select:after {
+    content:"";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+.call-me-maybe-form > div {
+    margin-bottom: 25px;
+}
+.call-me-maybe-form > div > div {
+    float: left;
+}
+.call-me-maybe-form > div > div:first-child {
+    width: 25%;
+    max-width: 150px;
+}
+.call-me-maybe-form > div > div:nth-child(2) {
+    width: 75%;
+    
+}
+.call-me-maybe-form > div > div:first-child label {
+    font-weight: bold;
+}
+.call-me-maybe-form input,
+.call-me-maybe-form select,
+.call-me-maybe-form textarea {
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.call-me-maybe-form .length {
+    width: 70px;
+    text-align: center;
+}
+.call-me-maybe-form  .clipped_text{
+    width: 70px;
+}
+.call-me-maybe-form .custom_css {
+    min-width: 200px;
+    width: 50%;
+    height: 100px;
+}
+.call-me-maybe-form > div > div:nth-child(2) > div{
+    margin-bottom: 10px;
+}
+.call-me-maybe-form > div > div:nth-child(2) > div span{
+    font-style: italic;
+}
+
+.call-me-maybe-tag-select > div {
+    float: left;
+    width: 100px;
+}
+.call-me-maybe-tag-select {
+    position: relative;
+}
+.call-me-maybe-tag-select.disabled:before {
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #F1F1F1;
+    opacity: 0.5;
+    z-index: 1;
+}
