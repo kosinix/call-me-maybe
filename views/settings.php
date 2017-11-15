@@ -62,6 +62,7 @@
                         <option <?php selected($color_scheme, 'light'); ?> value="light"><?php _e('Light', 'call-me-maybe'); ?></option>
                         <option <?php selected($color_scheme, 'dark'); ?> value="dark"><?php _e('Dark', 'call-me-maybe'); ?></option>
                         <option <?php selected($color_scheme, 'yellow'); ?> value="yellow"><?php _e('Yellow', 'call-me-maybe'); ?></option>
+                        <option <?php selected($color_scheme, 'pink'); ?> value="pink"><?php _e('Pink', 'call-me-maybe'); ?></option>
                     </select>
                 </div>
             </div>

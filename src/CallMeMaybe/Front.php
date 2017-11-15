@@ -43,6 +43,11 @@ class Front extends Core\AutoInject {
 				$settings['icon_color'] = '#fff';
 				$settings['border_color'] = '#fff';
 				break;
+			case 'pink':
+				$settings['bg_color'] = 'rgba(219, 9, 172, 0.9)';
+				$settings['icon_color'] = '#fff';
+				$settings['border_color'] = '#fff';
+				break;
 			default:
 				$settings['bg_color'] = 'rgba(0, 153, 0, 0.9)';
 				$settings['icon_color'] = '#fff';
